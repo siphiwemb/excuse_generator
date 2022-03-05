@@ -1,5 +1,11 @@
-# excuse_generator
+# Excuse Generator API
 
+## Purpose
+This app enables the user to get excuses by category whilst indicating the number of excuses they would like to receive.
+It then shows the user their historical excuses together with some stats showing total counts of excuse categories.
+
+
+## Architecture
 This project runs on the below libraries
 
 - Python 3.6.9
@@ -13,6 +19,7 @@ This project runs on the below libraries
 ## Development server
 Run `python3 manage.py runserver 8080`
 
+
 ## Running unit tests
 Run `python3 manage.py test`
 
@@ -20,6 +27,7 @@ Run `python3 manage.py test`
 ## Docker
 ### Build
 Run `docker-compose build` to build
+
 
 ### Start Application
 Run `docker-compose up` to start the app
