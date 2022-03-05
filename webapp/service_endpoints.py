@@ -1,0 +1,1 @@
+excuses_url = "https://excuser.herokuapp.com/v1/excuse"
