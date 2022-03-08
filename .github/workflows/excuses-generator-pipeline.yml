@@ -11,4 +11,4 @@ jobs:
       steps:
       - name: Build docker image
         run:
-          docker build ..
+          python manage.py test
