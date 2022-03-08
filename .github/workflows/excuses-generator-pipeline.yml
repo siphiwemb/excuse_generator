@@ -1,0 +1,16 @@
+name: CI
+
+on:
+  push:
+    branches:
+      - main
+
+name: build docker image
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+      run:
+        docker build .
+    
