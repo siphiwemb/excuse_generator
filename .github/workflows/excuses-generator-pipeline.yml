@@ -11,5 +11,4 @@ jobs:
       steps:
       - name: Build docker image
         run:
-          ls
-          docker build ./Dockerfile
+          docker build ..
