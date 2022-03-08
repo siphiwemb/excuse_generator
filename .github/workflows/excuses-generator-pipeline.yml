@@ -5,12 +5,10 @@ on:
     branches:
       - main
 
-name: build docker image
 jobs:
   build:
-    name: Build
-    runs-on: ubuntu-latest
-    steps:
-      run:
-        docker build .
-    
+      runs-on: ubuntu-latest
+      steps:
+      - name: Build docker image
+        run:
+          docker build .
